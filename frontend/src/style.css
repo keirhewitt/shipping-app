@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 245, 207);
+    margin: 0;
+}
+
+.outer__wrapper {
+    width: 850px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgba(31, 177, 245, 0.25), rgba(76, 241, 236, 0.25));
+    border: 1px solid rgb(25, 226, 252);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.country {
+    margin: 0;
+    padding: 0;
+    text-align: end;
+    font-weight: 500;
+    width: 800px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.main__container__wrapper {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px 10px 10px;
+}
+
+.user__hero {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hero__image {
+    width: auto;
+    height: 300px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#hero__img__main {
+    height: inherit;
+    border-radius: 8px;
+    transition: .2s;
+    border: 2px solid rgba(61, 224, 242, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#hero__img__main:hover {
+    transform: translateY(-2px);
+    transition: .2s;
+}
+
+.bid__details {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bid__price {
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgba(183, 183, 193, 0.25);
+}
+
+.bid__price__text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.place__bid__wrapper {
+    height: 50px;
+}
+
+.bid__btn {
+    border: none;
+    background: linear-gradient(#2989ff, rgb(75, 144, 228));
+    border-radius: 3px;
+    color: rgba(231, 231, 231, 0.8);
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;   
+    transition: .1s;
+}
+
+.bid__btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    color: rgb(255, 255, 255);
+    transition: .2s;
+}
+
+.bid__shipping {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.delivery__text {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.shipping__option {
+    font-weight: 700;
+    margin: 0;
+}
+
+.shipping__cost {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: end;
+}
+
+.shipping__cost__text {
+    font-weight: 700;
+}
+
+.shipping__details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
